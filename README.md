@@ -2,8 +2,6 @@
 
 Farnham's trusted local business index — built with Hugo and PaperMod, hosted on GitHub Pages.
 
-🌐 Live site: https://farnhamtrusted.github.io
-
 ---
 
 ## First-time setup
