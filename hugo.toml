@@ -1,0 +1,87 @@
+baseURL = "https://farnhamtrusted.github.io/"
+title = "Farnham Trusted"
+paginate = 20
+theme = "PaperMod"
+languageCode = "en-gb"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[params]
+  env = "production"
+  title = "Farnham Trusted"
+  description = "Farnham's trusted local businesses, all in one place."
+  author = "Farnham Trusted"
+  defaultTheme = "light"
+  disableThemeToggle = false
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = false
+  UseHugoToc = false
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = true
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+  [params.homeInfoParams]
+    Title = "Farnham Trusted"
+    Content = "A curated index of trusted local businesses in Farnham. Find tradesmen, food, shops, health services and more — all recommended by the local community."
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:farnhamtrusted@gmail.com"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[menu]
+  [[menu.main]]
+    identifier = "trades-home"
+    name = "Trades & Home"
+    url = "/trades-home/"
+    weight = 10
+  [[menu.main]]
+    identifier = "food-drink"
+    name = "Food & Drink"
+    url = "/food-drink/"
+    weight = 20
+  [[menu.main]]
+    identifier = "health-wellbeing"
+    name = "Health & Wellbeing"
+    url = "/health-wellbeing/"
+    weight = 30
+  [[menu.main]]
+    identifier = "shops-retail"
+    name = "Shops & Retail"
+    url = "/shops-retail/"
+    weight = 40
+  [[menu.main]]
+    identifier = "professional-services"
+    name = "Professional Services"
+    url = "/professional-services/"
+    weight = 50
+  [[menu.main]]
+    identifier = "community-leisure"
+    name = "Community & Leisure"
+    url = "/community-leisure/"
+    weight = 60
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 70
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
